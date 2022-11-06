@@ -1,0 +1,40 @@
+{
+  "name": "node+typescript+express+sequelize",
+  "version": "1.0.0",
+  "description": "Typescript sequelize application",
+  "author": {
+    "name": "VISHAL WAYACHAL",
+    "email": "vishuwayachal@gmail.com"
+  },
+  "main": "build/src/server.js",
+  "keywords": [
+    "Node",
+    "Express",
+    "Typescript",
+    "Sequelize"
+  ],
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "sqlz:migrate": "./node_modules/.bin/sequelize db:migrate",
+    "sqlz:undo": "./node_modules/.bin/sequelize db:migrate:undo",
+    "sqlz:new": "./node_modules/.bin/sequelize migration:create"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "4.17.1",
+    "fastest-validator": "^1.15.0",
+    "pg": "^8.8.0",
+    "sequelize": "^5.22.5",
+    "winston": "3.2.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "5.5.1",
+    "ts-node": "^10.9.1",
+    "tslint": "^6.1.3"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
