@@ -17,7 +17,8 @@
     "start": "ts-node src/server.ts",
     "sqlz:migrate": "./node_modules/.bin/sequelize db:migrate",
     "sqlz:undo": "./node_modules/.bin/sequelize db:migrate:undo",
-    "sqlz:new": "./node_modules/.bin/sequelize migration:create"
+    "sqlz:new": "./node_modules/.bin/sequelize migration:create",
+    "tslint": "tslint --project tsconfig.json"
   },
   "dependencies": {
     "body-parser": "1.19.0",

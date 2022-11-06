@@ -28,6 +28,11 @@ npm start
 ```
 Your web server is now exposed on http://localhost:3000
 
+## TSlint 
+TSLint checks TypeScript code for readability, maintainability, and functionality errors.
+```bash
+npm run tslint
+```
 
 ## API Documentation 
 ### GET /api/contacts?name=vishal

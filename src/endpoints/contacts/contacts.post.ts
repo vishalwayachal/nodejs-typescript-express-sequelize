@@ -19,7 +19,7 @@ export function create(req: Request, res: Response) {
     const schema = {
       name: { type: 'string', min: 3, max: 100 },
       email: { type: 'email', min: 3, max: 50 },
-      phone: { type: 'string', max: 15, empty: true, optional: true },
+      phone: { type: 'string', min: 10, max: 13, empty: true, optional: true },
       address: { type: 'string', max: 255, empty: true, optional: true },
       pincode: { type: 'string', max: 255, empty: true, optional: true },
       age: { type: 'number', empty: true, optional: true },

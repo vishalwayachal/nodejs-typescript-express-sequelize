@@ -3,7 +3,8 @@ interface ResultObj {
   code?: number,
   message?: string,
   dataCount?: number,
-  data?: any
+  data?: any,
+  stack?: any
 }
 
 export function success(data: any): ResultObj {
@@ -27,7 +28,7 @@ export function success(data: any): ResultObj {
 
 export function error(e: any): ResultObj {
   const message = (e.type) ? e.type : e.message
-  const errorJson = this.success({
+  const errorJson = success({
     success: false,
     data: e.data,
     statusCode: e.code,
