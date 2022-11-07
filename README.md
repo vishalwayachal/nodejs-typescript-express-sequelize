@@ -12,6 +12,7 @@ npm install
 ```
 
 ## Project Configuration
+Create empty database
 Project configuration can be found in the .env file
 Define your database configuration in the .env file
 Sequelize configuration and entities can be found in /Src/sqlz directory.
