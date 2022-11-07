@@ -1,9 +1,9 @@
 
 # Introduction
-Typescript project with NodeJS + Express + Sequelize ORM.
-Node Version: 19.0.0
-Npm Version: 8.19.2
-Postgres Version: 14
+  Typescript project with NodeJS + Express + Sequelize ORM.
+  Node Version: 19.0.0
+  Npm Version: 8.19.2
+  Postgres Version: 14
 
 ## Installation
 Run one of the command below
@@ -12,10 +12,10 @@ npm install
 ```
 
 ## Project Configuration
-Create empty database
-Project configuration can be found in the .env file
-Define your database configuration in the .env file
-Sequelize configuration and entities can be found in /Src/sqlz directory.
+  Create empty database
+  Project configuration can be found in the .env file
+  Define your database configuration in the .env file
+  Sequelize configuration and entities can be found in /Src/sqlz directory.
 
 ## Migration
 To execute the migration command below
