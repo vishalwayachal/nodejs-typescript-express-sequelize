@@ -47,7 +47,7 @@ curl --location --request POST 'http://localhost:3000/api/contacts' \
 --data-raw '{
     "name": "xxx xxxxx",
     "email": "xxx@gmail.com",
-    "phone": "xxxxxxxx",
+    "phone": "9876543210",
     "address": "xxxxx xxxxx, xxxx",
     "pincode": "xxxxxx",
     "age": 30,
